@@ -1,6 +1,9 @@
-<span style="color:blue">Jeu de Sudoku</span> 
+Jeu de Sudoku 
 =============
 *Réalisé par Pierre Mazurek*
+
+1. Présentation
+---------------
 
 Ce jeu, plutôt simple, permet de générer de manière complètement aléatoire une grille de Sudoku puis de retirer au hasard 50 cases puis de les remplacer par des "0". On doit donc retrouver le contenu de ces cases pour pouvoir résoudre le Sudoku. Le Sudoku est directement affiché sur la console lorsqu'on éxecute la classe `Main.java`.
 
