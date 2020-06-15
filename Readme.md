@@ -1,4 +1,4 @@
-<span style="color: blue">Jeu de Sudoku</span> 
+<span style="color:blue">Jeu de Sudoku</span> 
 =============
 *Réalisé par Pierre Mazurek*
 
