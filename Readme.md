@@ -3,7 +3,7 @@ Jeu de Sudoku
 *Réalisé par Pierre Mazurek*
 
 
-1. Présentation
+**1. Présentation**
 ---------------
 Ce jeu, plutôt simple, permet de générer de manière complètement aléatoire une grille de Sudoku puis de retirer au hasard 50 cases puis de les remplacer par des "0". On doit donc retrouver le contenu de ces cases pour pouvoir résoudre le Sudoku. Le Sudoku est directement affiché sur la console lorsqu'on éxecute la classe `Main.java`.
 
@@ -28,7 +28,8 @@ Chaque Sudoku généré est unique, il est donc possible de recompiler le progra
 
 Le programme est composé de trois classes Java : `Main.java`, `Grille.java` et `Case.java`.
 
-2. Détail du code du programme
+
+**2. Détail du code du programme**
 ------------------------------
 Toutes les classes ayant servi pour construire ce petit programme sont disponibles dans l'[onglet src](https://github.com/PierreMazurek/ProjetSudoku/tree/master/src/Sudoku).
 
