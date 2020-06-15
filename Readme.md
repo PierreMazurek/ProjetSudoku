@@ -13,7 +13,7 @@ Il est également possible de visualiser une des solutions possibles pour ce sud
 **Vous avez malencontreusement appuyé sur un autre touche que le 1 ? Pas de panique !**
 Le programme est ainsi fait pour réafficher le Sudoku si vous n'avez pas tapé 1 en dessous de la dernière ligne.
 
-![Réaffichage du Sudoku si mauvaise touche tapée](https://imgur.com/QI6EKqw)
+![Réaffichage du Sudoku si mauvaise touche tapée](https://i.imgur.com/QI6EKqw.jpg)
 
 
 Chaque Sudoku généré est unique, il est donc possible de recompiler le programme pour commencer une nouvelle partie...
