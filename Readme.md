@@ -8,7 +8,7 @@ Jeu de Sudoku
 Ce jeu, plutôt simple, permet de générer de manière complètement aléatoire une grille de Sudoku puis de retirer au hasard 50 cases, remplacées par des "0". On doit donc retrouver le contenu de ces cases pour pouvoir résoudre le Sudoku. Le Sudoku est directement affiché sur la console lorsqu'on éxecute la classe `Main.java`.
 
 
-![Sudoku à résoudre](https://i.imgur.com/QI6EKqw.jpg)
+![Sudoku à résoudre](https://i.imgur.com/BaG8lSX.jpg)
 
 
 Il est également possible de visualiser une des solutions possibles pour ce sudoku en tapant 1 et en validant.
