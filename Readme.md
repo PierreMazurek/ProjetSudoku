@@ -34,14 +34,14 @@ Le programme est composé de trois classes Java : `Main.java`, `Grille.java` et 
 ------------------------------
 Toutes les classes ayant servi pour construire ce petit programme sont disponibles dans l'[onglet src](https://github.com/PierreMazurek/ProjetSudoku/tree/master/src/Sudoku).
  
+-------------
 
-
-Intéressons nous tout d'abord à la classe `Case.java`. 
+Intéressons nous tout d'abord à la classe [`Case.java`](https://github.com/PierreMazurek/ProjetSudoku/blob/master/src/Sudoku/Case.java). 
 Cette classe va simplement construire l'objet classe avec le numéro de sa ligne et de sa colonne avec les mutateurs et accesseurs correspondant.
  
+------------
 
-
-Entrons tout de suite dans le vif du sujet : la classe `Grille.java`. Il s'agit du coeur du projet. Bien que ce format de fichier ne s'y prête pas forcément, c'est ici que nous détaillerons au mieux chaque méthode déclarée.
+Entrons tout de suite dans le vif du sujet : la classe [`Grille.java`](https://github.com/PierreMazurek/ProjetSudoku/blob/master/src/Sudoku/Grille.java). Il s'agit du coeur du projet. Bien que ce format de fichier ne s'y prête pas forcément, c'est ici que nous détaillerons au mieux chaque méthode déclarée.
 
 Le code de cette classe débute par un constructeur qui nous permet de déclarer deux tableaux de 9 lignes et 9 colonnes : `Grille` et `Solution`, respectivement la grille de Sudoku et une des solutions possibles.
 
@@ -72,9 +72,9 @@ Il ne reste ensuite que les méthodes d'affichage :
 * `displaySolution` qui est en fait la méthode `toString` appliquée à la variable`Solution`.
 
  
+-----------------
 
-   
-Enfin, la classe `Main.java` va simplement créer un nouvel objet **a** de type `Grille` puis lui appliquer la méthode `displaySudoku`.
+Enfin, la classe [`Main.java`](https://github.com/PierreMazurek/ProjetSudoku/blob/master/src/Sudoku/Main.java) va simplement créer un nouvel objet **a** de type `Grille` puis lui appliquer la méthode `displaySudoku`.
 
 **3. Conclusion**
 ------------------
