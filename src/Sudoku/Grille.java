@@ -97,25 +97,6 @@ public class Grille {
 		return n;
 	}
 	
-	public Case getCaseAleatoire() {
-		int x = getChiffreAleatoire()-1;
-		int y = getChiffreAleatoire()-1;
-		Case caseInitiale = new Case(x,y);
-		while(Grille[x][y]==Solution[x][y]) {
-			y++;
-			if(x>8) {
-				x=0;
-			}
-			if(y>8) {
-				y=0; x++;
-			}
-			if (x==caseInitiale.getX() && y==caseInitiale.getY()) {
-				return null;
-			}
-		}
-		return new Case(x,y);
-	}
-	
 	private void remplirCarre(int ligne, int colonne) {
 		int chiffre = getChiffreAleatoire();
 		for (int i=0; i<3; i++) {
@@ -218,18 +199,4 @@ public class Grille {
 		sudoku +="\n         " + " | " + Solution [6][0] + " " + Solution [6][1] + " "+ Solution [6][2] + " | " + Solution [6][3] + " " + Solution [6][4] + " "+ Solution [6][5] + " | " + Solution [6][6] + " " + Solution [6][7] + " "+ Solution [6][8] + " | " + "\n         " + " | " + Solution [7][0] + " " + Solution [7][1] + " "+ Solution [7][2] + " | " + Solution [7][3] + " " + Solution [7][4] + " "+ Solution [7][5] + " | " + Solution [7][6] + " " + Solution [7][7] + " "+ Solution [7][8] + " | " +"\n         " + " | " + Solution [8][0] + " " + Solution [8][1] + " "+ Solution [8][2] + " | " + Solution [8][3] + " " + Solution [8][4] + " "+ Solution [8][5] + " | " + Solution [8][6] + " " + Solution [8][7] + " "+ Solution [8][8] + " | " + "\n" +"          +-------+-------+-------+ ";
 		System.out.println(sudoku);
 	}
-	
-	public boolean sudokuComplet() {
-		boolean reponse = true;
-		for (int i=0; i<9; i++) {
-			for (int j=0; j<9; j++) {
-				if(Grille[i][j]!=Solution[i][j]) {
-					reponse = false;
-					break;
-				}
-			}
-		}
-		return reponse;
-	}
-	
 }
