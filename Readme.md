@@ -82,7 +82,7 @@ Bien qu'il s'agisse d'un petit programme, toutes les classes fonctionnent et leu
   
  
  
- 
+ ---------------
 
 
 *Pierre Mazurek ESIREM 3A IE - Projet Java Sudoku 2020*
